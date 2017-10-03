@@ -13,10 +13,10 @@ $client = new Client($sid, $token);
 // Use the client to do fun stuff like send text messages!
 $client->messages->create(
     // the number you'd like to send the message to
-    '+19176174152',
+    '+19173490168',
     array(
         // A Twilio phone number you purchased at twilio.com/console
-        'from' => '+19173490168',
+        'from' => '+18622256372',
         // the body of the text message you'd like to send
         'body' => 'Hello from Christos Zikopoulos CS 643 Fall 2017'
     )
