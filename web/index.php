@@ -1,6 +1,6 @@
 <?php
 // Required if your environment does not handle autoloading
-require __DIR__ . '/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
@@ -18,6 +18,6 @@ $client->messages->create(
         // A Twilio phone number you purchased at twilio.com/console
         'from' => '+18622256372',
         // the body of the text message you'd like to send
-        'body' => 'Hey Jenny! Good luck on the bar exam!'
+        'body' => 'Hello from Christos Zikopoulos CS 643 Fall 2017'
     )
 );
