@@ -6,6 +6,8 @@ require '../vendor/autoload.php';
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
 
+echo "Hello World";
+
 // Your Account SID and Auth Token from twilio.com/console
 $sid = 'ACdbdf59dcc984f9593d622c60e94f6ac5';
 $token = '51614e44f59b7e12dc94f21f0bb31d78';
