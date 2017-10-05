@@ -22,11 +22,3 @@ $client->messages->create(
         'body' => 'Hello from Christos Zikopoulos CS 643 Fall 2017'
     )
 );
-
-<html>
-<header><title>This is title</title>
- </header>
-<body>
-Hello world
-</body>
-</html>
