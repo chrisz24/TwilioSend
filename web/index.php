@@ -1,3 +1,12 @@
+<html>
+<header><title>This is title</title></header>
+<body>
+echo "Hi! This application is used to sent a text message stating which student of CS 643 made the project.";
+echo "\nPlease let Dr. Scharff know if you see this message.";
+echo "\nThanks a lot!";
+</body>
+</html>
+
 
 <?php
 // Required if your environment does not handle autoloading
@@ -6,9 +15,7 @@ require '../vendor/autoload.php';
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
 
-echo "Hi! This application is used to sent a text message stating which student of CS 643 made the project.";
-echo "\nPlease let Dr. Scharff know if you see this message.";
-echo "\nThanks a lot!";
+
 
 
 // Your Account SID and Auth Token from twilio.com/console
