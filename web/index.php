@@ -6,10 +6,10 @@ require '../vendor/autoload.php';
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
 
-echo "Hi! This application is used to sent a text message stating which student of CS 643 made the project.
-Please let Dr. Scharff know if you see this message.
+echo "Hi! This application is used to sent a text message stating which student of CS 643 made the project.";
+echo "Please let Dr. Scharff know if you see this message.";
+echo "Thanks a lot!";
 
-Thanks a lot!";
 
 // Your Account SID and Auth Token from twilio.com/console
 $sid = 'ACdbdf59dcc984f9593d622c60e94f6ac5';
