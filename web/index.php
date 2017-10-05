@@ -1,8 +1,3 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
 
 <?php
 // Required if your environment does not handle autoloading
@@ -29,6 +24,11 @@ $client->messages->create(
         'body' => 'Hello from Christos Zikopoulos CS 643 Fall 2017'
     )
 );
-echo '<p>Hello World</p>';
- </body>
+
+<html>
+<header><title>This is title</title>
+ </header>
+<body>
+Hello world
+</body>
 </html>
