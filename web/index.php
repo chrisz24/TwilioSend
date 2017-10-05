@@ -1,5 +1,5 @@
 <html>
-<header><title>CS Christos Zikopoulos</title></header>
+<header><title>CS43 TwilioSend Project</title></header>
 <body>
 <p>Hi! This application is used to sent a text message stating which student of CS 643 made the project.</p>
 <p>Please let Dr. Scharff know if you see this message.</p>
