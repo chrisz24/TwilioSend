@@ -1,9 +1,9 @@
 <html>
-<header><title>This is title</title></header>
+<header><title>CS Christos Zikopoulos</title></header>
 <body>
-echo "Hi! This application is used to sent a text message stating which student of CS 643 made the project.";
-echo "\nPlease let Dr. Scharff know if you see this message.";
-echo "\nThanks a lot!";
+<p>Hi! This application is used to sent a text message stating which student of CS 643 made the project.</p>
+<p>Please let Dr. Scharff know if you see this message.</p>
+<p>Thanks a lot!"</p>
 </body>
 </html>
 
