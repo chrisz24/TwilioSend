@@ -1,6 +1,14 @@
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+
 <?php
 // Required if your environment does not handle autoloading
 require '../vendor/autoload.php';
+
+echo '<p>Hello World</p>';
 
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
@@ -21,3 +29,6 @@ $client->messages->create(
         'body' => 'Hello from Christos Zikopoulos CS 643 Fall 2017'
     )
 );
+echo '<p>Hello World</p>';
+ </body>
+</html>
