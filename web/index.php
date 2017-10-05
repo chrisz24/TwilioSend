@@ -7,8 +7,8 @@ require '../vendor/autoload.php';
 use Twilio\Rest\Client;
 
 echo "Hi! This application is used to sent a text message stating which student of CS 643 made the project.";
-echo "Please let Dr. Scharff know if you see this message.";
-echo "Thanks a lot!";
+echo "\nPlease let Dr. Scharff know if you see this message.";
+echo "\nThanks a lot!";
 
 
 // Your Account SID and Auth Token from twilio.com/console
